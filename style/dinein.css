@@ -1,0 +1,138 @@
+#choose-text{
+    position: absolute;
+width: 226px;
+height: 37px;
+left: 24px;
+top: 120px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#dine-table-text{
+    position: absolute;
+width: 218px;
+height: 49px;
+left: 24px;
+top: 157px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+
+color: #000000;
+
+}
+
+#one-img{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 36px;
+    top: 246px; 
+}
+
+#two-img{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 131px;
+    top: 247px; 
+}
+
+#three-img{
+    position: absolute;
+width: 74px;
+height: 74px;
+left: 217px;
+top: 247px;
+}
+
+#four-img{
+    position: absolute;
+width: 74px;
+height: 74px;
+left: 308px;
+top: 246px;
+}
+
+#five-img{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 36px;
+    top: 341px;
+}
+
+#six-img{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 133px;
+    top: 341px;   
+}
+
+#seven-img{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 217px;
+    top: 341px;   
+}
+
+#eight-img{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 308px;
+    top: 341px;       
+}
+
+#nine-img{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 36px;
+    top: 436px;   
+}
+
+#ten-img{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 133px;
+    top: 436px;   
+}
+
+#eleven-img{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 217px;
+    top: 436px;  
+}
+
+#twelve-img{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    left: 308px;
+    top: 436px;  
+}
+
+#family-table{
+    position: absolute;
+    width: 365px;
+    height: 365px;
+    left: 24px;
+    top: 424px;   
+}

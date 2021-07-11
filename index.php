@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GEEKonix Restuarant | Home</title>
 
+    <!-- default base url -->
+    <base href="http://localhost/Digital-Waiter/">
+
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,12 +22,13 @@
       crossorigin="anonymous"
     />
     <!-- common css -->
-    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="style/common.css">
     <!-- index css -->
-    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="style/index.css">
 
   </head>
   <body>
+
     <!-- adding navigation bar -->
     <?php
       require './common-component/nav.php'; 
@@ -40,43 +44,45 @@
 
     <div>
       <div>
-        <img id="take-away" src="./images/index/take-away.png" alt="...">
+        <img id="take-away" src="images/index/take-away.png" alt="...">
         <span id="take-away-text">Take Away</span>
       </div>
       <div>
-        <img id="dine-in" src="./images/index/dine-in.png" alt="...">
+        <a href="pages/dinein.php">
+        <img id="dine-in" src="images/index/dine-in.png" alt="...">
         <span id="dine-in-text">Dine In</span>
+        </a>
       </div>
       <div>
-        <img id="door-step" src="./images/index/door-step.png" alt="...">
+        <img id="door-step" src="images/index/door-step.png" alt="...">
         <span id="door-step-text">Door Step</span>
       </div>
     </div>
 
     <div>
-      <img id="banner-thali" src="./images/index/banner-thali.png" alt="...">
+      <img id="banner-thali" src="images/index/banner-thali.png" alt="...">
     </div>
 
     <div>
-      <img id="offer-img" src="./images/index/offer-img.png" alt="...">
+      <img id="offer-img" src="images/index/offer-img.png" alt="...">
       <span id="today-special-text">Today's Special For You</span>
     </div>
 
     <div>
       <div>
-        <img id="dosa" src="./images/index/dosa.png" alt="...">
+        <img id="dosa" src="images/index/dosa.png" alt="...">
         <span id="dosa-text">Masala Dosa</span>
       </div>
       <div>
-        <img id="fish-curry" src="./images/index/fish-curry.png" alt="...">
+        <img id="fish-curry" src="images/index/fish-curry.png" alt="...">
         <span id="fish-curry-text">Fish Curry</span>
       </div>
       <div>
-        <img id="litti-chokha" src="./images/index/litti-chokha.png" alt="...">
+        <img id="litti-chokha" src="images/index/litti-chokha.png" alt="...">
         <span id="litti-chokha-text">Litti Chokha</span>
       </div>
       <div>
-        <img id="biryani" src="./images/index/biryani.png" alt="...">
+        <img id="biryani" src="images/index/biryani.png" alt="...">
         <span id="biryani-text">Biryani</span>
       </div>
     </div>
