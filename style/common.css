@@ -1,0 +1,47 @@
+#toggler-icon{
+    position: absolute;
+width: 21px;
+height: 17px;
+left: 28px;
+top: 58px;
+}
+
+#offer-icon{
+    position: absolute;
+width: 66px;
+height: 22px;
+left: 324px;
+top: 52px;
+}
+
+#search{
+    position: absolute;
+width: 36px;
+height: 35px;
+left: 42px;
+top: 825px;
+}
+
+#track{
+    position: absolute;
+width: 36px;
+height: 35px;
+left: 144px;
+top: 825px;
+}
+
+#cart{
+    position: absolute;
+    width: 36px;
+    height: 35px;
+    left: 244px;
+    top: 825px; 
+}
+
+#profile{
+    position: absolute;
+width: 34px;
+height: 35px;
+left: 339px;
+top: 825px;
+}

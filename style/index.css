@@ -1,0 +1,255 @@
+#welcome-text{
+    position: absolute;
+width: 174px;
+height: 23px;
+left: 27px;
+top: 105px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 31px;
+
+color: #000000;
+}
+
+#geekonix-text{
+    position: absolute;
+width: 226px;
+height: 74px;
+left: 27px;
+top: 152px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+
+color: #000000;
+
+}
+
+#take-away{
+    position: absolute;
+width: 110px;
+height: 110px;
+left: 17px;
+top: 247px;
+}
+
+#take-away-text{
+    position: absolute;
+width: 79px;
+height: 17px;
+left: 32px;
+top: 363px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+}
+
+#dine-in{
+    position: absolute;
+width: 110px;
+height: 110px;
+left: 154px;
+top: 248px;
+}
+
+#dine-in-text{
+    position: absolute;
+width: 52px;
+height: 17px;
+left: 183px;
+top: 363px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+}
+
+#door-step{
+    position: absolute;
+width: 110px;
+height: 110px;
+left: 290px;
+top: 248px;
+}
+
+#door-step-text{
+    position: absolute;
+width: 69px;
+height: 17px;
+left: 310px;
+top: 363px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+}
+
+#banner-thali{
+    position: absolute;
+width: 383px;
+height: 202px;
+left: 17px;
+top: 422px;
+}
+
+#offer-img{
+    position: absolute;
+width: 27px;
+height: 27px;
+left: 17px;
+top: 650px;
+
+}
+
+#today-special-text{
+    position: absolute;
+width: 182px;
+height: 19px;
+left: 51px;
+top: 654px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+#dosa{
+    position: absolute;
+width: 87px;
+height: 88px;
+left: 17px;
+top: 697px;
+}
+
+#dosa-text{
+    position: absolute;
+width: 62px;
+height: 11px;
+left: 30px;
+top: 788px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+
+color: #000000;
+
+}
+
+#fish-curry{
+    position: absolute;
+width: 87px;
+height: 88px;
+left: 115px;
+top: 697px;
+}
+
+#fish-curry-text{
+    position: absolute;
+width: 62px;
+height: 11px;
+left: 134px;
+top: 788px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+
+color: #000000;
+
+}
+
+#litti-chokha{
+    position: absolute;
+width: 87px;
+height: 88px;
+left: 215px;
+top: 697px;
+
+}
+
+#litti-chokha-text{
+    position: absolute;
+width: 62px;
+height: 11px;
+left: 231px;
+top: 788px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+
+color: #000000;
+
+}
+
+#biryani{
+    position: absolute;
+width: 87px;
+height: 88px;
+left: 313px;
+top: 697px;
+}
+
+#biryani-text{
+    position: absolute;
+width: 62px;
+height: 11px;
+left: 342px;
+top: 788px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+
+color: #000000;
+
+}
+
+#footer-line{
+    position: absolute;
+width: 414px;
+height: 0px;
+left: 0px;
+top: 818px;
+
+border: 0.2px solid #000000;
+
+}
