@@ -7,7 +7,7 @@
     <title>Choose Table | Dine In | GEEKonix Restuarant</title>
 
     <!-- default base url -->
-    <base href="http://localhost/Digital-Waiter/" target="_blank">
+    <base href="http://localhost/Digital-Waiter/">
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +51,9 @@
         <img id="four-img" src="images/dinein/four.png" alt="...">
       </div>
       <div>
-        <img id="five-img" src="images/dinein/five.png" alt="...">
+        <a href="pages/waiter.php">
+          <img id="five-img" src="images/dinein/five.png" alt="...">
+        </a>
       </div>
       <div>
         <img id="six-img" src="images/dinein/six.png" alt="...">

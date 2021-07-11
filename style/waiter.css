@@ -1,0 +1,271 @@
+#waiter-img{
+    position: absolute;
+    width: 163px;
+    height: 163px;
+    left: 17px;
+    top: 96px;   
+}
+
+#table-num{
+    position: absolute;
+    width: 74px;
+    height: 83px;
+    left: 126.09px;
+    top: 96px;   
+}
+
+#waiter-name{
+    position: absolute;
+    width: 103.44px;
+    height: 79.9px;
+    left: 292.59px;
+    top: 153px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+#waiter-lang{
+    position: absolute;
+    width: 181.58px;
+    height: 79.9px;
+    left: 225.59px;
+    top: 181px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #000000;       
+}
+
+#waiter-star{
+    position: absolute;
+    width: 102px;
+    height: 34px;
+    left: 284px;
+    top: 199px;       
+}
+
+#namastey-text{
+    position: absolute;
+    width: 158px;
+    height: 37px;
+    left: 24px;
+    top: 259px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    color: #000000;   
+}
+
+#namastey-icon{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 175px;
+    top: 258px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);   
+}
+
+#menu-que-text{
+    position: absolute;
+    width: 303px;
+    height: 102px;
+    left: 22px;
+    top: 305px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 41px;
+    line-height: 51px;
+    
+    color: #000000;      
+}
+
+#litti-text{
+    position: absolute;
+    width: 106px;
+    height: 23px;
+    left: 26.17px;
+    top: 440px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    color: #000000;      
+}
+
+#litti-price{
+    position: absolute;
+width: 34px;
+height: 17px;
+left: 26.17px;
+top: 465px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 17px;
+
+color: #000000;
+}
+
+#veg-icon-1{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 67px;
+    top: 465px;
+    transform: matrix(1, 0, 0, -1, 0, 0);   
+}
+
+#litti{
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 290px;
+    top: 415px;  
+}
+
+#add1{
+    position: absolute;
+    width: 67px;
+    height: 29px;
+    left: 317px;
+    top: 509px; 
+}
+
+#dosa-text{
+    position: absolute;
+    width: 117px;
+    height: 23px;
+    left: 26.17px;
+    top: 577px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    color: #000000;        
+}
+
+#dosa-price{
+    position: absolute;
+    width: 34px;
+    height: 17px;
+    left: 26.17px;
+    top: 602px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #000000;
+}
+
+#veg-icon-2{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 67px;
+    top: 602px;  
+}
+
+#dosa{
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 290px;
+    top: 552px;  
+}
+
+#add2{
+    position: absolute;
+    width: 67px;
+    height: 29px;
+    left: 317px;
+    top: 645px; 
+}
+
+#thali-text{
+    position: absolute;
+    width: 111px;
+    height: 23px;
+    left: 28.17px;
+    top: 712px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    color: #000000;           
+}
+
+#thali-price{
+    position: absolute;
+    width: 34px;
+    height: 17px;
+    left: 28.17px;
+    top: 737px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #000000;    
+}
+
+#veg-icon-3{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 69px;
+    top: 737px; 
+}
+
+#thali{
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 292px;
+    top: 687px; 
+}
+
+#add3{
+    position: absolute;
+    width: 67px;
+    height: 29px;
+    left: 319px;
+    top: 780px;
+}
