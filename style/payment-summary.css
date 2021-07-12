@@ -1,0 +1,279 @@
+#waiter-img{
+    position: absolute;
+    width: 163px;
+    height: 163px;
+    left: 17px;
+    top: 96px;       
+}
+
+#table-num{
+    position: absolute;
+    width: 74px;
+    height: 83px;
+    left: 126.09px;
+    top: 96px;   
+}
+
+#waiter-name{
+    position: absolute;
+    width: 100.05px;
+    height: 79.9px;
+    left: 292.59px;
+    top: 153px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;  
+}
+
+#waiter-lang{
+    position: absolute;
+    width: 178.05px;
+    height: 79.9px;
+    left: 225.59px;
+    top: 181px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #000000;   
+}
+
+#waiter-star{
+    position: absolute;
+    width: 102px;
+    height: 34px;
+    left: 284px;
+    top: 199px;   
+}
+
+#your-order-text{
+    position: absolute;
+    width: 284px;
+    height: 37px;
+    left: 28px;
+    top: 276px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    color: #000000;       
+}
+
+#order-text{
+    position: absolute;
+    width: 128px;
+    height: 19px;
+    left: 28px;
+    top: 352px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    color: #000000;       
+}
+
+#dish1-img{
+  position: absolute;
+width: 125px;
+height: 59px;
+left: 42px;
+top: 409px;   
+}
+
+#dish1-quant{
+    position: absolute;
+    width: 116px;
+    height: 19px;
+    left: 195px;
+    top: 429px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    color: #000000;      
+}
+
+#dish1-price{
+    position: absolute;
+    width: 44px;
+    height: 25px;
+    left: 339px;
+    top: 426px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    color: #000000;   
+}
+
+#dish2-img{
+    position: absolute;
+    width: 125px;
+    height: 59px;
+    left: 42px;
+    top: 492px;    
+}
+  
+#dish2-quant{
+    position: absolute;
+    width: 91px;
+    height: 19px;
+    left: 195px;
+    top: 512px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    color: #000000;             
+}
+  
+#dish2-price{
+    position: absolute;
+    width: 36px;
+    height: 25px;
+    left: 339px;
+    top: 509px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    color: #000000;   
+}
+
+#waiter-pic{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 99px;
+    top: 564px;       
+}
+
+#waiter-tip-text{
+    position: absolute;
+    width: 89px;
+    height: 19px;
+    left: 195px;
+    top: 578px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    color: #000000;       
+}
+
+#waiter-tip-price{
+    position: absolute;
+    width: 46px;
+    height: 25px;
+    left: 335px;
+    top: 573px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    color: #000000;       
+}
+
+#total-text{
+    position: absolute;
+    width: 73px;
+    height: 37px;
+    left: 28px;
+    top: 628px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    color: #000000;   
+}
+
+#total-amt{
+    position: absolute;
+    width: 71px;
+    height: 37px;
+    left: 315px;
+    top: 628px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+#payment-btn{
+    position: absolute;
+    width: 207px;
+    height: 78px;
+    left: 207px;
+    top: 701px;
+    
+    background: #299220;
+    border-radius: 25px 0px 0px 25px;
+    border: none;     
+}
+
+#payment-text{ 
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    color: #FFFFFF;      
+}
+
+#payment-icon{
+    width: 50px;
+    height: 50px;
+    left: 323px;
+    top: 715px;   
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Add Tip | GEEKonix Restuarent</title>
+    <title>Payment Summary | GEEKonix Restuarent</title>
     <!-- default base url -->
     <base href="http://localhost/Digital-Waiter/"/>
 
@@ -26,7 +26,7 @@
     <!-- common css -->
     <link rel="stylesheet" href="style/common.css" />
     <!-- dinein css -->
-    <link rel="stylesheet" href="style/addtip.css" />
+    <link rel="stylesheet" href="style/payment-summary.css" />
   </head>
   <body>
       <!-- adding navigation bar -->
@@ -49,28 +49,34 @@
     </div>
 
     <div>
-        <span id="waiter-help-text">Help John's Family</span>
+        <span id="your-order-text">Your Order Detail!</span>
     </div>
 
     <div>
-        <img id="waiter-family-pic" src="images/addtip/waiter-family-pic.png" alt="...">
+        <span id="order-text">Order Summary</span>
+        <div>
+            <img src="images/payment-summary/litti.png" alt="..." id="dish1-img">
+            <span id="dish1-quant">1 x Litti Chokha</span>
+            <span id="dish1-price">&#8377;150</span>
+        </div>
+        <div>
+            <img src="images/payment-summary/bisleri.png" alt="..." id="dish2-img">
+            <span id="dish2-quant">1 x Bisleri 1L</span>
+            <span id="dish2-price">&#8377;20</span>
+        </div>
+        <div>
+            <img src="images/payment-summary/waiter-pic.png" alt="..." id="waiter-pic">
+            <span id="waiter-tip-text">Tip Amount</span>
+            <span id="waiter-tip-price">&#8377;100</span>
+        </div>
+        <div>
+            <span id="total-text">Total</span>
+            <span id="total-amt">&#8377;270</span>
+        </div>
     </div>
 
     <div>
-        <span id="add-tip-text">Add Tip:</span>
-    </div>
-
-    <div>
-        <button id="amt1-btn" class="amt-btn-text">&#8377; 10</button>
-        <button id="amt2-btn" class="amt-btn-text">&#8377; 50</button>
-        <button id="amt3-btn" class="amt-btn-text">&#8377; 100</button>
-        <button id="amt4-btn" class="amt-btn-text">Customise Amt</button>
-    </div>
-
-    <div>
-      <a href="pages/payment-summary.php">
-        <button id="payment-btn"><span id="payment-text">Payment </span> <img id="payment-icon" src="images/addtip/payment-icon.png" alt="..."></button> 
-      </a>  
+       <button id="payment-btn"><span id="payment-text">Pay Now </span> <img id="payment-icon" src="images/addtip/payment-icon.png" alt="..."></button> 
     </div>
      
     <?php
