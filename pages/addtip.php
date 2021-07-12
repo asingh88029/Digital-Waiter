@@ -64,13 +64,6 @@
         <button id="amt1-btn" class="amt-btn-text">&#8377; 10</button>
         <button id="amt2-btn" class="amt-btn-text">&#8377; 50</button>
         <button id="amt3-btn" class="amt-btn-text">&#8377; 100</button>
-        <button id="amt4-btn" class="amt-btn-text">Customise Amt</button>
-    </div>
-
-    <div>
-      <a href="pages/payment-summary.php">
-        <button id="payment-btn"><span id="payment-text">Payment </span> <img id="payment-icon" src="images/addtip/payment-icon.png" alt="..."></button> 
-      </a>  
     </div>
      
     <?php
@@ -89,5 +82,6 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <script src="script/addtip.js"></script>
   </body>
 </html>

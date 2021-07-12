@@ -67,7 +67,7 @@
         <div>
             <img src="images/payment-summary/waiter-pic.png" alt="..." id="waiter-pic">
             <span id="waiter-tip-text">Tip Amount</span>
-            <span id="waiter-tip-price">&#8377;100</span>
+            <span id="waiter-tip-price">&#8377;<?php echo $_GET['amt'];?></span>
         </div>
         <div>
             <span id="total-text">Total</span>
@@ -76,9 +76,7 @@
     </div>
 
     <div>
-      <a href="pages/payment-success.php">
-       <button id="payment-btn"><span id="payment-text">Pay Now </span> <img id="payment-icon" src="images/addtip/payment-icon.png" alt="..."></button>
-      </a>  
+       <button id="payment-btn"><span id="payment-text">Pay Now </span> <img id="payment-icon" src="images/addtip/payment-icon.png" alt="..."></button> 
     </div>
      
     <?php
@@ -97,5 +95,10 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <!-- Adding Jquery & Razorpay js  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <!-- additional script -->
+    <script src="script/payment-summary.js"></script>
   </body>
 </html>

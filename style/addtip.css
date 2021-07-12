@@ -138,18 +138,6 @@
     border: none;   
 }
 
-#amt4-btn{
-    position: absolute;
-    width: 270px;
-    height: 49px;
-    left: 54px;
-    top: 632px;
-    
-    background: rgba(247, 189, 77, 0.96);
-    border-radius: 15px;  
-    border: none;
-}
-
 #payment-btn{
     position: absolute;
     width: 207px;

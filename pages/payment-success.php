@@ -67,15 +67,15 @@
         <div>
             <img src="images/payment-summary/waiter-pic.png" alt="..." id="waiter-pic">
             <span id="waiter-tip-text">Tip Amount</span>
-            <span id="waiter-tip-price">&#8377;100</span>
+            <span id="waiter-tip-price">&#8377;<?php echo $_GET['tip']; ?></span>
         </div>
         <div>
             <span id="total-text">Total</span>
-            <span id="total-amt">&#8377;270</span>
+            <span id="total-amt">&#8377;<?php echo $_GET['amt']; ?></span>
         </div>
         <div>
             <span id="txn-text">Txn Id:</span>
-            <span id="txn-id-txt">xkyy1544wrkk1544</span>
+            <span id="txn-id-txt"><?php echo $_GET['txnid']; ?></span>
         </div>
         <div>
             <img src="images/payment-success/paid-img.png" alt="..." id="paid-img"> 
