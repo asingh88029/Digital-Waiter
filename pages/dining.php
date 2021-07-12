@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Place Order | GEEKonix Restuarent</title>
+    <title>Dining | GEEKonix Restuarent</title>
     <!-- default base url -->
     <base href="http://localhost/Digital-Waiter/"/>
 
@@ -26,7 +26,7 @@
     <!-- common css -->
     <link rel="stylesheet" href="style/common.css" />
     <!-- dinein css -->
-    <link rel="stylesheet" href="style/order.css" />
+    <link rel="stylesheet" href="style/dining.css" />
   </head>
   <body>
       <!-- adding navigation bar -->
@@ -49,7 +49,7 @@
     </div>
 
     <div>
-        <span id="place-order-text">Place Order!</span>
+        <span id="complete-order-text">Completed Order!</span>
     </div>
 
     <div>
@@ -65,14 +65,11 @@
     </div>
 
     <div>
-        <span id="total-text">Total:</span>
-        <span id="total-price-text">&#8377;170</span>
+        <button id="add-btn"><span id="add-text">Add +</span></button>
     </div>
 
     <div>
-      <a href="pages/dining.php">
-        <button id="ready-to-dine"><span id="ready-to-dine-text">Ready to Dine </span> <img id="right-arrow" src="images/order/right-arrow.png" alt="..."></button> 
-      </a>  
+       <button id="checkout"><span id="checkout-text">Checkout </span> <img id="right-arrow" src="images/order/right-arrow.png" alt="..."></button> 
     </div>
      
     <?php
