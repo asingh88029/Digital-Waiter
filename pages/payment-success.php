@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Payment Summary | GEEKonix Restuarent</title>
+    <title>Payment Confirmation | GEEKonix Restuarent</title>
     <!-- default base url -->
     <base href="http://localhost/Digital-Waiter/"/>
 
@@ -26,7 +26,7 @@
     <!-- common css -->
     <link rel="stylesheet" href="style/common.css" />
     <!-- dinein css -->
-    <link rel="stylesheet" href="style/payment-summary.css" />
+    <link rel="stylesheet" href="style/payment-success.css" />
   </head>
   <body>
       <!-- adding navigation bar -->
@@ -49,11 +49,11 @@
     </div>
 
     <div>
-        <span id="your-order-text">Your Order Detail!</span>
+        <span id="thankyou-text">Thank-You!</span>
     </div>
 
     <div>
-        <span id="order-text">Order Summary</span>
+        <span id="payment-text">Payment Summary</span>
         <div>
             <img src="images/payment-summary/litti.png" alt="..." id="dish1-img">
             <span id="dish1-quant">1 x Litti Chokha</span>
@@ -73,12 +73,13 @@
             <span id="total-text">Total</span>
             <span id="total-amt">&#8377;270</span>
         </div>
-    </div>
-
-    <div>
-      <a href="pages/payment-success.php">
-       <button id="payment-btn"><span id="payment-text">Pay Now </span> <img id="payment-icon" src="images/addtip/payment-icon.png" alt="..."></button>
-      </a>  
+        <div>
+            <span id="txn-text">Txn Id:</span>
+            <span id="txn-id-txt">xkyy1544wrkk1544</span>
+        </div>
+        <div>
+            <img src="images/payment-success/paid-img.png" alt="..." id="paid-img"> 
+        </div>
     </div>
      
     <?php
