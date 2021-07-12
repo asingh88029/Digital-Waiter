@@ -18,3 +18,10 @@
 <img src="./git-images/payment-success.png" alt="...">
 <h6>Dynamic Tip Adding & Payment Gateway Added : Commit 9</h6>
 <img src="./git-images/razorpay-gateway.png" alt="...">
+<hr>
+<p>SQL file is added</p>
+<hr>
+<h1>Youtube Video For Explanation :</h1>
+<a href="https://youtu.be/v9qmkibR_iM">Video Link</a>
+<h1>Android App Download Link :</h1>
+<a href="http://app.appsgeyser.com/14090692/GEEKonix%20Restuarant">Download</a>
