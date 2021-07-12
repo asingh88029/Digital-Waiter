@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Order Menu | GEEKonix Restuarent</title>
+    <title>Place Order | GEEKonix Restuarent</title>
     <!-- default base url -->
     <base href="http://localhost/Digital-Waiter/"/>
 
@@ -26,7 +26,7 @@
     <!-- common css -->
     <link rel="stylesheet" href="style/common.css" />
     <!-- dinein css -->
-    <link rel="stylesheet" href="style/waiter.css" />
+    <link rel="stylesheet" href="style/order.css" />
   </head>
   <body>
       <!-- adding navigation bar -->
@@ -49,38 +49,28 @@
     </div>
 
     <div>
-        <span id="namastey-text">Namastey</span>
-        
+        <span id="place-order-text">Place Order!</span>
     </div>
 
     <div>
-        <span id="menu-que-text">What you like to dine?</span>
+        <img id="litti-img" src="images/order/litti.png" alt="...">
+        <span id="quan-litti">1 x Litti Chokha</span>
+        <span id="litti-total-price">&#8377;150</span>
     </div>
 
     <div>
-        <span id="litti-text">Litti Chokha</span>
-        <span id="litti-price">&#8377;150</span>
-        <img id="veg-icon-1" src="images/waiter/veg-icon.png" alt="...">
-        <img id="litti" src="images/waiter/litti.png" alt="...">
-        <a href="pages/order.php">
-          <img id="add1" src="images/waiter/add.png" alt="...">
-        </a>
+        <img id="bisleri-img" src="images/order/bisleri.png" alt="...">
+        <span id="quan-bisleri">1 x Bisleri 1L</span>
+        <span id="bisleri-total-price">&#8377;20</span>
     </div>
 
     <div>
-        <span id="dosa-text">Masala Dosa</span>
-        <span id="dosa-price">&#8377;180</span>
-        <img id="veg-icon-2" src="images/waiter/veg-icon.png" alt="...">
-        <img id="dosa" src="images/waiter/dosa.png" alt="...">
-        <img id="add2" src="images/waiter/add.png" alt="...">
+        <span id="total-text">Total:</span>
+        <span id="total-price-text">&#8377;170</span>
     </div>
 
     <div>
-        <span id="thali-text">Deluxe Thali</span>
-        <span id="thali-price">&#8377;299</span>
-        <img id="veg-icon-3" src="images/waiter/veg-icon.png" alt="...">
-        <img id="thali" src="images/waiter/thali.png" alt="...">
-        <img id="add3" src="images/waiter/add.png" alt="...">
+       <button id="ready-to-dine"><span id="ready-to-dine-text">Ready to Dine </span> <img id="right-arrow" src="images/order/right-arrow.png" alt="..."></button> 
     </div>
      
     <?php

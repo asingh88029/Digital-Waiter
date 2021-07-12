@@ -1,0 +1,210 @@
+#waiter-img{
+    position: absolute;
+    width: 163px;
+    height: 163px;
+    left: 17px;
+    top: 96px;       
+}
+
+#table-num{
+    position: absolute;
+    width: 74px;
+    height: 83px;
+    left: 126.09px;
+    top: 96px;   
+}
+
+#waiter-name{
+    position: absolute;
+    width: 100.05px;
+    height: 79.9px;
+    left: 292.59px;
+    top: 153px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;  
+}
+
+#waiter-lang{
+    position: absolute;
+    width: 178.05px;
+    height: 79.9px;
+    left: 225.59px;
+    top: 181px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #000000;   
+}
+
+#waiter-star{
+    position: absolute;
+    width: 102px;
+    height: 34px;
+    left: 284px;
+    top: 199px;   
+}
+
+#place-order-text{
+    position: absolute;
+    width: 196px;
+    height: 37px;
+    left: 28px;
+    top: 276px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    
+    color: #000000;   
+}
+
+#litti-img{
+    position: absolute;
+    width: 125px;
+    height: 59px;
+    left: 34px;
+    top: 369px;  
+}
+
+#quan-litti{
+    position: absolute;
+    width: 116px;
+    height: 19px;
+    left: 187px;
+    top: 389px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: #000000;       
+}
+
+#litti-total-price{
+    position: absolute;
+    width: 44px;
+    height: 25px;
+    left: 331px;
+    top: 386px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #000000;    
+}
+
+#bisleri-img{
+    position: absolute;
+    width: 125px;
+    height: 59px;
+    left: 34px;
+    top: 496px;  
+}
+
+#quan-bisleri{
+    position: absolute;
+    width: 91px;
+    height: 19px;
+    left: 187px;
+    top: 516px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: #000000;       
+}
+
+#bisleri-total-price{
+    position: absolute;
+    width: 36px;
+    height: 25px;
+    left: 331px;
+    top: 513px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #000000;    
+}
+
+#total-text{
+    position: absolute;
+    width: 81px;
+    height: 37px;
+    left: 36px;
+    top: 623px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    color: #000000;   
+}
+
+#total-price-text{
+    position: absolute;
+    width: 66px;
+    height: 37px;
+    left: 316px;
+    top: 623px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    color: #000000;       
+}
+
+#ready-to-dine{
+    position: absolute;
+    width: 207px;
+    height: 78px;
+    left: 207px;
+    top: 701px;
+    
+    background: rgba(247, 189, 77, 0.96);
+    border: none;
+    border-radius: 25px 0px 0px 25px;   
+}
+
+#ready-to-dine-text{ 
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;   
+}
+
+#right-arrow{
+    width: 20px;
+    height: 20px;   
+}
