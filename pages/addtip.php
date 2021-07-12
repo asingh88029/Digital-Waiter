@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dining | GEEKonix Restuarent</title>
+    <title>Add Tip | GEEKonix Restuarent</title>
     <!-- default base url -->
     <base href="http://localhost/Digital-Waiter/"/>
 
@@ -26,7 +26,7 @@
     <!-- common css -->
     <link rel="stylesheet" href="style/common.css" />
     <!-- dinein css -->
-    <link rel="stylesheet" href="style/dining.css" />
+    <link rel="stylesheet" href="style/addtip.css" />
   </head>
   <body>
       <!-- adding navigation bar -->
@@ -49,29 +49,26 @@
     </div>
 
     <div>
-        <span id="complete-order-text">Completed Order!</span>
+        <span id="waiter-help-text">Help John's Family</span>
     </div>
 
     <div>
-        <img id="litti-img" src="images/order/litti.png" alt="...">
-        <span id="quan-litti">1 x Litti Chokha</span>
-        <span id="litti-total-price">&#8377;150</span>
+        <img id="waiter-family-pic" src="images/addtip/waiter-family-pic.png" alt="...">
     </div>
 
     <div>
-        <img id="bisleri-img" src="images/order/bisleri.png" alt="...">
-        <span id="quan-bisleri">1 x Bisleri 1L</span>
-        <span id="bisleri-total-price">&#8377;20</span>
+        <span id="add-tip-text">Add Tip:</span>
     </div>
 
     <div>
-        <button id="add-btn"><span id="add-text">Add +</span></button>
+        <button id="amt1-btn" class="amt-btn-text">&#8377; 10</button>
+        <button id="amt2-btn" class="amt-btn-text">&#8377; 50</button>
+        <button id="amt3-btn" class="amt-btn-text">&#8377; 100</button>
+        <button id="amt4-btn" class="amt-btn-text">Customise Amt</button>
     </div>
 
     <div>
-      <a href="pages/addtip.php">  
-        <button id="checkout"><span id="checkout-text">Checkout </span> <img id="right-arrow" src="images/order/right-arrow.png" alt="..."></button> 
-      </a>   
+       <button id="payment-btn"><span id="payment-text">Payment </span> <img id="payment-icon" src="images/addtip/payment-icon.png" alt="..."></button> 
     </div>
      
     <?php

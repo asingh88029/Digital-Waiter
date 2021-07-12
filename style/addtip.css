@@ -1,0 +1,181 @@
+#waiter-img{
+    position: absolute;
+    width: 163px;
+    height: 163px;
+    left: 17px;
+    top: 96px;       
+}
+
+#table-num{
+    position: absolute;
+    width: 74px;
+    height: 83px;
+    left: 126.09px;
+    top: 96px;   
+}
+
+#waiter-name{
+    position: absolute;
+    width: 100.05px;
+    height: 79.9px;
+    left: 292.59px;
+    top: 153px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;  
+}
+
+#waiter-lang{
+    position: absolute;
+    width: 178.05px;
+    height: 79.9px;
+    left: 225.59px;
+    top: 181px;
+    
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #000000;   
+}
+
+#waiter-star{
+    position: absolute;
+    width: 102px;
+    height: 34px;
+    left: 284px;
+    top: 199px;   
+}
+
+#waiter-help-text{
+    position: absolute;
+    width: 304px;
+    height: 37px;
+    left: 28px;
+    top: 276px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    color: #000000;             
+}
+
+#waiter-family-pic{
+    position: absolute;
+    width: 383px;
+    height: 176px;
+    left: 17px;
+    top: 315px;   
+}
+
+#add-tip-text{
+    position: absolute;
+    width: 108px;
+    height: 31px;
+    left: 28px;
+    top: 502px;  
+
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    color: #000000;   
+}
+
+.amt-btn-text{
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;   
+}
+#amt1-btn{
+    position: absolute;
+    width: 76px;
+    height: 48px;
+    left: 53px;
+    top: 564px;
+    
+    background: rgba(247, 189, 77, 0.96);
+    border-radius: 15px; 
+    border: none;  
+}
+
+#amt2-btn{
+    position: absolute;
+    width: 76px;
+    height: 48px;
+    left: 152px;
+    top: 564px;
+    
+    background: rgba(247, 189, 77, 0.96);
+    border-radius: 15px;
+    border: none;   
+}
+
+#amt3-btn{
+    position: absolute;
+    width: 76px;
+    height: 48px;
+    left: 246px;
+    top: 564px;
+    
+    background: rgba(247, 189, 77, 0.96);
+    border-radius: 15px;
+    border: none;   
+}
+
+#amt4-btn{
+    position: absolute;
+    width: 270px;
+    height: 49px;
+    left: 54px;
+    top: 632px;
+    
+    background: rgba(247, 189, 77, 0.96);
+    border-radius: 15px;  
+    border: none;
+}
+
+#payment-btn{
+    position: absolute;
+    width: 207px;
+    height: 78px;
+    left: 207px;
+    top: 701px;
+    
+    background: #299220;
+    border-radius: 25px 0px 0px 25px;
+    border: none;     
+}
+
+#payment-text{ 
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    color: #FFFFFF;      
+}
+
+#payment-icon{
+    width: 50px;
+    height: 50px;
+    left: 323px;
+    top: 715px;   
+}
